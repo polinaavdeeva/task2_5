@@ -39,7 +39,6 @@ public class QueueList<T> {
     }
 
     public boolean findDuplicates(ListNode newNode) {
-
         for (ListNode current = head; current != null; current = current.next) {
             if (newNode.value == current.value) {
                 return true;
